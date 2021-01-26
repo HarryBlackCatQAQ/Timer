@@ -13,7 +13,7 @@
 
 的提醒jar包
 
-# 方法 #
+#方法
 在mvn项目中加入本地jar包，才能启动，输入以下命令即可
 
     mvn install:install-file
