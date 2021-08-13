@@ -27,7 +27,7 @@ import java.util.LinkedHashMap;
 public class MyStage extends Stage {
 
     private static MyStage instance;
-    private Logger logger = LoggerFactory.getLogger(MySystemTray.class);
+    private Logger logger = LoggerFactory.getLogger(MyStage.class);
 
     /**
      * 单例模式
@@ -35,7 +35,7 @@ public class MyStage extends Stage {
      */
     public static MyStage getInstance() {
         if (instance == null) {
-            synchronized (MySystemTray.class) {
+            synchronized (MyStage.class) {
                 if (instance == null) {
                     instance = new MyStage();
                 }
