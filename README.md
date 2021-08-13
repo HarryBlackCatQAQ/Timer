@@ -1,14 +1,14 @@
 # Timer
 使用JavaFX 开发的计时器 用来考试计时 训练计时使用
 
-#演示
+# 演示
 ![](https://github.com/HarryBlackCatQAQ/Image/blob/main/timer_1.png)
 
 ![](https://github.com/HarryBlackCatQAQ/Image/blob/main/timer_2.png)
 
 ![](https://github.com/HarryBlackCatQAQ/Image/blob/main/timer_3.png)
 
-#前期设置
+# 前期设置
 用到了 [https://github.com/PlusHaze/TrayNotification](https://github.com/PlusHaze/TrayNotification)
 
 的提醒jar包
